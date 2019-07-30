@@ -11,15 +11,18 @@
 
 #logo {
   background: url(./logo.png);
+  background-size: cover;
   width: 150px;
   height: 150px;
-  background-size: cover;
-  margin: 15px;
-  margin-left: 25px;
   border: 1px solid white;
 }
 
 #footer {
+  margin-top: 20%;
+}
+
+#heart {
+  color: #f72d2d;
 }
 
 
@@ -35,7 +38,8 @@ body {
 }
 
 form {
-  max-width: 300px;
+  max-width: 30vw;
+  min-width: 200px;
   margin: 10px auto;
   padding: 10px 20px;
   background: #f4f7f8;
